@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,UAAU;AACV,UAAU;AACV,QAAQ,CAAC;EACP,OAAO,EAAE,YAAY;CACtB",
+    "sources": [
+        "element-custom.scss"
+    ],
+    "names": [],
+    "file": "element-custom.css"
+}

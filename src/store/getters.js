@@ -1,0 +1,9 @@
+export const audioRef = state => state.audioRef;
+export const isPlaying = state => state.isPlaying;
+export const curPlaying = state => state.curPlaying;
+export const curPlaylist = state => state.curPlaylist;
+export const curPlayIndex = state => state.curPlayIndex;
+export const curPlayMode = state => state.curPlayMode;
+export const curPlayVolume = state => state.curPlayVolume;
+export const userInfo = state => state.userInfo;
+export const isCollapse = state => state.isCollapse;

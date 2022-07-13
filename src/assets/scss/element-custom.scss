@@ -1,0 +1,47 @@
+// 样式重置
+.el-header,
+.el-footer,
+.el-main {
+  padding: 0 !important;
+}
+
+.el-slider__bar,
+.el-slider__button-wrapper {
+  transition: $--transition-duration linear;
+}
+
+.el-slider__bar,
+.el-pagination.is-background .el-pager li:not(.disabled).active,
+.el-button--primary {
+  background-color: $--color-primary !important;
+}
+
+.el-slider__button,
+.el-button--primary {
+  border-color: $--color-primary !important;
+}
+
+.el-menu-item * {
+  width: 100%;
+  display: inline-block;
+  color: $--color-primary;
+}
+
+.el-drawer__body {
+  overflow: scroll;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 150px;
+  min-height: 400px;
+}
+
+.el-form-item__label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.el-form-item__content {
+  text-align: center;
+}
